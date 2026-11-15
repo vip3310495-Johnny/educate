@@ -1,0 +1,14 @@
+interface:
+  display_name: storybooks maker
+  short_description: 依素材分流先確認文本與圖片，再製作可動繪本、音效配樂與 Taste 排版
+  default_prompt: 使用 $storybooks-maker 製作 8–10 頁互動故事書：沒有素材先生成圖片與文本，有素材先只生成文本，經我確認後實作互動音效、配樂與
+    Taste 排版。
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
